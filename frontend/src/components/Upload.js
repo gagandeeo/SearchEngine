@@ -164,7 +164,9 @@ function Upload(props) {
             className="select__genre"
             onChange={handleGenre}
             placeholder="select Genre"
+            value={genre}
           >
+            <option>Select Genre</option>
             <option value="video">Video</option>
             <option value="image">Image</option>
             <option value="mp3/wav">Mp3/Wav</option>
