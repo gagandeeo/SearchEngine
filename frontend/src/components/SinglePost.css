@@ -1,0 +1,154 @@
+.singlepost {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: 80vh;
+}
+.singleupload__form {
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+  justify-content: center;
+}
+.singleform__left {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  margin-left: 40px;
+  align-items: center;
+}
+.singleform__imgpreview {
+  width: 58%;
+  max-height: 500px;
+  background: aliceblue;
+  border: 2px solid rgb(128, 246, 246);
+}
+
+.singleform__removebtn {
+  align-self: center !important;
+  background-color: rgb(138, 33, 33) !important;
+  margin-top: 2% !important;
+  border-radius: 10px !important;
+  width: 100px !important;
+  background-color: none !important;
+  color: aqua !important;
+  font-weight: bold !important;
+}
+
+.singleform__removebtn:hover {
+  transition: 200ms ease-in-out;
+  background-color: rgb(163, 10, 10) !important;
+  box-shadow: 3px 3px 3px rgb(228, 49, 49);
+}
+.singlechoose__btn {
+  align-self: center !important;
+  background-color: rgb(121, 121, 121) !important;
+  margin-top: 2% !important;
+  border-radius: 10px !important;
+  width: 200px !important;
+  background-color: none !important;
+  color: rgb(79, 255, 255) !important;
+  font-weight: bold !important;
+}
+.singlechoose__btn:hover {
+  box-shadow: 3px 3px 3px aqua !important;
+  transition: 200ms ease-in-out !important;
+  background-color: black !important;
+}
+.singleform__right {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  padding: 30px;
+}
+.singleform__right > input {
+  align-items: center;
+  justify-content: center;
+  background: none;
+
+  outline: none;
+  border: none;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid aqua;
+
+  color: rgb(0, 0, 0);
+}
+
+.singlechoosefile__btn {
+  border-radius: 10px !important;
+  background-color: black !important;
+  color: aqua !important;
+  font-weight: bold !important;
+}
+.singlechoosefile__btn:hover {
+  box-shadow: 3px 3px 3px aqua !important;
+  transition: 200ms ease-in-out !important;
+}
+.singlecancel__btn {
+  align-self: flex-end !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+  color: black !important;
+}
+.singlecancel__btn:hover {
+  color: red !important;
+}
+.singleform__control {
+  border-bottom: 2px solid aqua !important;
+  color: black !important;
+  margin-bottom: 3px !important;
+}
+.singleselect__genre {
+  background: none;
+  outline: none;
+  border: none;
+
+  border-bottom: 2px solid aqua;
+  padding: 25px;
+  cursor: pointer;
+  color: black;
+  overflow-y: scroll;
+  font-size: 15px;
+  font-weight: bold;
+}
+.singleselect__genre > option {
+  max-height: 30px;
+  padding: 2px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(65, 63, 63);
+  line-height: 5px;
+}
+
+.singlechoose__btn1 {
+  background-color: rgb(121, 121, 121) !important;
+  margin-top: 15% !important;
+  border-radius: 10px !important;
+  width: 200px !important;
+  background-color: none !important;
+  color: rgb(79, 255, 255) !important;
+  font-weight: bold !important;
+  align-self: center;
+}
+.singlechoose__btn1:hover {
+  box-shadow: 3px 3px 3px aqua !important;
+  transition: 200ms ease-in-out !important;
+  background-color: black !important;
+}
+
+.delete__icon {
+  color: white !important;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.delete__icon:hover {
+  color: rgb(233, 40, 40) !important;
+}

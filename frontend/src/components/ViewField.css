@@ -1,0 +1,56 @@
+.viewfield {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.viewfield::-webkit-scrollbar {
+  width: 0.4rem;
+}
+.viewfield::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+.viewfield::-webkit-scrollbar-thumb {
+  background: rgb(74, 209, 243);
+  border-radius: 50px;
+}
+.viewfield__right {
+  align-items: baseline;
+}
+.viefield__filter {
+  display: flex;
+  width: 200px;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 2px;
+  transform: skew(-4deg);
+}
+.select__filter {
+  cursor: pointer;
+  background: none;
+  margin-left: 10px;
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 200px;
+  border-bottom: 1px solid aqua;
+}
+.select__filter > option {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(65, 63, 63);
+  line-height: 5px;
+}

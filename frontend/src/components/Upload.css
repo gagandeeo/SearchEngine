@@ -1,0 +1,146 @@
+.uploading {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: rgb(146, 146, 146);
+  opacity: 1;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 8%;
+  height: 80%;
+  opacity: 0.95;
+}
+.upload__form {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.form__left {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.form__imgpreview {
+  width: 58%;
+  max-height: 500px;
+  background: aliceblue;
+  border: 2px solid rgb(128, 246, 246);
+}
+
+.form__removebtn {
+  background-color: rgb(138, 33, 33) !important;
+  margin-top: 2% !important;
+  border-radius: 10px !important;
+  width: 100px !important;
+  background-color: none !important;
+  color: aqua !important;
+  font-weight: bold !important;
+}
+
+.form__removebtn:hover {
+  transition: 200ms ease-in-out;
+  background-color: rgb(163, 10, 10) !important;
+  box-shadow: 3px 3px 3px rgb(228, 49, 49);
+}
+.choose__btn {
+  background-color: rgb(121, 121, 121) !important;
+  margin-top: 2% !important;
+  border-radius: 10px !important;
+  width: 200px !important;
+  background-color: none !important;
+  color: rgb(79, 255, 255) !important;
+  font-weight: bold !important;
+  margin-right: 40px !important;
+}
+.choose__btn:hover {
+  box-shadow: 3px 3px 3px aqua !important;
+  transition: 200ms ease-in-out !important;
+  background-color: black !important;
+}
+.form__right {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  padding: 30px;
+}
+.form__right > input {
+  align-items: center;
+  justify-content: center;
+  background: none;
+
+  outline: none;
+  border: none;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid aqua;
+
+  color: rgb(0, 0, 0);
+}
+
+.choosefile__btn {
+  border-radius: 10px !important;
+  background-color: black !important;
+  color: aqua !important;
+  font-weight: bold !important;
+}
+.choosefile__btn:hover {
+  box-shadow: 3px 3px 3px aqua !important;
+  transition: 200ms ease-in-out !important;
+}
+.cancel__btn {
+  align-self: flex-end !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+  color: black !important;
+}
+.cancel__btn:hover {
+  color: red !important;
+}
+.form__control {
+  border-bottom: 2px solid aqua !important;
+  color: black !important;
+  margin-bottom: 3px !important;
+}
+.select__genre {
+  background: none;
+  outline: none;
+  border: none;
+
+  border-bottom: 2px solid aqua;
+  padding: 25px;
+  cursor: pointer;
+  color: black;
+  overflow-y: scroll;
+  font-size: 15px;
+  font-weight: bold;
+}
+.select__genre > option {
+  max-height: 30px;
+  padding: 2px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(65, 63, 63);
+  line-height: 5px;
+}
+
+.choose__btn1 {
+  background-color: rgb(121, 121, 121) !important;
+  margin-top: 15% !important;
+  border-radius: 10px !important;
+  width: 200px !important;
+  background-color: none !important;
+  color: rgb(79, 255, 255) !important;
+  font-weight: bold !important;
+  align-self: center;
+  /* margin-right: 40px !important; */
+}
+.choose__btn1:hover {
+  box-shadow: 3px 3px 3px aqua !important;
+  transition: 200ms ease-in-out !important;
+  background-color: black !important;
+}

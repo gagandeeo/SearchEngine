@@ -1,0 +1,25 @@
+.uploadfield {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  margin: 2%;
+  margin-top: 4%;
+  align-items: flex-start;
+}
+
+.upload {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: gray;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 2px;
+  transform: skew(-4deg);
+  cursor: pointer;
+}
+.upload:hover {
+  margin-left: 10px;
+  transition-delay: 40ms;
+  border-left: 4px solid aqua;
+}
